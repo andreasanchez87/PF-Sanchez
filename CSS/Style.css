@@ -44,7 +44,8 @@
 .optionSecondNav {
   display: block;
   font-size: 18px;  
-  color: white;
+  /* color: white; */
+  font-weight: bold;
   text-align: center;
   padding-left: 55px;
   text-decoration: none;
@@ -56,6 +57,7 @@
   margin-top: 25px;
   padding: 0;
   overflow: hidden;
+  background-color:rgb(246, 246, 246);
   /* outline: black solid 1px; */
 }
 
@@ -66,16 +68,44 @@ padding: 12px;
 list-style-type: none;
 overflow: hidden;
 background-color: #4caf50;
+/* margin-left: -40px; */
+}
+
+.firstNavColor 
+{
+  background-color:rgb(246, 246, 246);
+}
+
+.secondNavColor {
+ background-color:#4caf50;
+ margin-bottom: 1px;
+}
+
+.secondNavColor > .navbar {
+  background-color: #4caf50 !important;
+}
+
+#navbarCollapse {
+  background-color: #4caf50;
+  }
+
+.navbar {
+    background-color: #4caf50;
+    margin-bottom: 5px;
 }
 
 .navbar-nav {
   margin-right: auto;
-}
+    }
 
 .navbar-nav > li {
-  margin-right: 10px;
-}
+  margin-right: 20px;
+ }
 
+.navbar-dark .navbar-nav .nav-link {
+color: white;
+margin-left: 50px;
+}
 
 a:hover {
   color: #deded5;
@@ -88,15 +118,26 @@ body {
   /* overflow: auto; */
 }
 
+.slogan {
+ font-weight: bold;
+ text-align: center;
+ font-size: 1.2em;
+ color: rgb(94, 106, 117);
+
+}
+
 .novedadesTitle { 
-  font-family: 'Segoe UI';
+  /* font-family: 'Segoe UI'; */
   text-align: center;
   color:#4caf50;
   font-size: 25px;
   margin-top: 50px;
-  margin-bottom: 40px;
-
-}
+  background-color: rgb(246, 246, 246);
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 1px;
+  font-weight: bold;
+  }
 
 .logo {
   width: 70px;
@@ -158,7 +199,8 @@ body {
   width: 840px;
   height: auto;
   margin-bottom: 30px;
-}
+  border-radius: 10px !important;
+  }
 
 * {
   box-sizing: border-box;
@@ -179,12 +221,13 @@ body {
   display: table;
 }
 
-.img2 {
+.imgNov {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 180pxx;
-  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: auto;
+  height: auto;
+  padding-top: 2px;
 }
 
 .form {
@@ -193,14 +236,10 @@ body {
 }
 
 .categoriesTitle {
-  /* font-family: 'Segoe UI'; */
   font-weight: bold;
-  /* text-align: left;
-  margin-left: 85px; */
-  color:#3a2e0a;
+  color:#494332;
   font-size: 28px;
-  /* margin-top: 20px; */
-}
+  }
 
 .categoriesName {
   font-family:"Poppins", sans-serif;
@@ -220,6 +259,7 @@ body {
 .categoriesImg {
  max-width:100%;
  height: auto;
+ border-radius: 10px;
 }
 
 .categoriesCenter {
@@ -250,9 +290,11 @@ body {
  margin-bottom: 80px;
 }
 
-.navbar-toggler{
-  background-color: green;
+.navbar-toggler {
+  background-color: #4caf50;
+ /* float: left; */
 }
+
 
 @media(min-width: 992px) {
   .navbar-expand-lg .navbar-nav{
@@ -268,16 +310,47 @@ body {
 }
 
 @media (max-width: 768px) {
-  .mediaSize {
+ .superTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 1px;
+}
+
+.mediaSize {
     align-items: end;
     flex: column;
   }
 
   .categoriesTitle {
-    font-size: 1.4em;
-
+    font-size: 1.6em;
   }
 
+  .categoriesName {
+    font-size: 1.29em;
+  }
+
+  .categoriesImg {
+    max-width:80%;
+    height: auto;
+    }
+
+  .navbar-toggler {
+   position: absolute;
+  }
+
+  .imgNov {
+    max-width:150%;
+    height: auto;
+   }
+  
 }
 
+.justify-content-center
+{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: rgb(246, 246, 246);
+    align-items: center;
+  }
 
