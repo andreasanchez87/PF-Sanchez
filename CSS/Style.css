@@ -91,15 +91,14 @@ background-color: #4caf50;
 
 .navbar {
     background-color: #4caf50;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-
-.navbar-nav {
-  margin-right: auto;
-    }
 
 .navbar-nav > li {
   margin-right: 20px;
+  margin-bottom: -5px;
+    margin-top: -5px;
  }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -156,14 +155,6 @@ body {
   align-content: center;
   margin-top: -7px;
 }    
-
-.titleFirstNav {
-  text-align: center;
-  padding-top: 14px;
-  text-decoration: none;
-  color: #555;
-  font-weight: bold;
-}
 
 .footer {
   position: relative;
@@ -342,8 +333,16 @@ body {
     max-width:150%;
     height: auto;
    }
-  
-}
+
+   .rightFloatButton, .cartBtn {
+    margin-right: 0px;
+   }
+
+   a:not([href]):not([tabindex]) {
+    color: white;
+   }
+
+ }
 
 .justify-content-center
 {
@@ -354,3 +353,7 @@ body {
     align-items: center;
   }
 
+.searchBar {
+  margin-top: 18px;
+  margin-left: 15px;
+}

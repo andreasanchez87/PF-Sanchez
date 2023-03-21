@@ -24,10 +24,12 @@
      <div class="firstNav">
       <ul> 
        <li class="leftFloat"><img class="logo" src="../Images/cart.png" alt="Logo"/></li> <!-- BUSCAR OTRO LOGO? -->
-       <li class="leftFloat"><input class="optionFirstNav" type="search" id="search" name="search" placeholder="Buscar..."/></li>
-       <li class="rightFloatButton"><button class="cartBtn"><li class="fa fa-shopping-cart"></li>  Mi Carrito</button></li>
-       <li class="rightFloatText"><a class="titleFirstNav" href="#about">Mi Cuenta</a></li>
-      </ul>
+       <li class="leftFloat searchBar">
+        <input type="search" class="form-control rounded" placeholder="Buscar..." aria-label="Search" aria-describedby="search-addon" />
+ 
+       </li>
+       <li class="rightFloatButton"><button class="cartBtn d-none d-sm-inline"><li class="fa fa-shopping-cart"></li> Mi Carrito</button><a class="cartBtn fa fa-shopping-cart d-inline d-sm-none"></a> </li>
+       </ul>
      </div>
     </div>
    </div>
