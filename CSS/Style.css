@@ -195,11 +195,11 @@ body {
 .categoriesTitle {
   /* font-family: 'Segoe UI'; */
   font-weight: bold;
-  text-align: left;
-  margin-left: 85px;
+  /* text-align: left;
+  margin-left: 85px; */
   color:#3a2e0a;
   font-size: 28px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .categoriesName {
@@ -272,4 +272,12 @@ body {
     align-items: end;
     flex: column;
   }
+
+  .categoriesTitle {
+    font-size: 1.4em;
+
+  }
+
 }
+
+
