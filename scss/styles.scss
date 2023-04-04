@@ -1,0 +1,304 @@
+.leftFloat {
+    float: left;
+}
+    
+.rightFloat {
+    float: right;
+}
+
+.rightFloatText {
+    float: right;
+    margin-top: 25px;
+    margin-right: 14px;
+}
+
+.rightFloatButton {
+    float: right;
+    margin-top: 18px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+$blackColor: black;
+
+.optionFirstNav {
+    display: block;
+    color: black;
+    text-align: left;
+    margin-top: 18px;
+    margin-left: 15px;
+    text-decoration: none;
+    width: 250px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.optionSecondNav {
+    display: block;
+    font-size: 18px;  
+    /* color: white; */
+    font-weight: bold;
+    text-align: center;
+    padding-left: 55px;
+    text-decoration: none;  
+}
+
+.firstNav {
+    ul {
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(246, 246, 246);
+    /* outline: black solid 1px; */
+    }
+}
+
+.secondNav {
+    ul {
+        color: white;
+        margin-top: 10px;
+        padding: 12px;
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #4caf50;
+        /* margin-left: -40px; */
+    }
+}
+
+.firstNavColor {
+    background-color:rgb(246, 246, 246);
+}
+
+.secondNavColor {
+    background-color:#4caf50;
+    margin-bottom: 1px;
+}
+
+.secondNavColor > .navbar {
+    background-color: #4caf50 !important;
+}
+
+#navbarCollapse {
+    background-color: #4caf50;
+}
+
+.navbar {
+    background-color: #4caf50;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.navbar-nav > li {
+    margin-right: 20px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+.navbar-dark  {
+    .navbar-nav {
+        .nav-link {
+            color: white;
+            margin-left: 50px;
+        }
+    }
+}
+
+a:hover {
+    color: #deded5;
+    text-decoration: none;
+}
+  
+body {
+    font-family: "Poppins", sans-serif;
+    /* height: 100%; */
+    /* overflow: auto; */
+}
+
+.slogan {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(94, 106, 117);
+
+}
+
+.novedadesTitle { 
+    /* font-family: 'Segoe UI'; */
+    text-align: center;
+    color:#4caf50;
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: rgb(246, 246, 246);
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 70px;
+    text-align: center;
+    padding: 14px;
+}
+
+.cartBtn {
+    background-color: #FFC107;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-content: center;
+    margin-top: -7px;
+}    
+
+.footer {
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    /* height: 70px; */
+    margin-top: 15px;
+}
+
+.optionFooter {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom: -25px;
+    margin-left: -60px;
+    margin-right: -15px;
+    background-color: rgb(148, 149, 149);
+}
+
+.liStyle {
+    background-color: rgb(167, 157, 157);
+    color: white;
+    text-align: center;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 840px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 40px;
+    align-content: center;
+    margin-left: 200px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgNov {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+    padding-top: 2px;
+}
+
+.form {
+    border: 1px solid gray;
+    border-radius: 15px;  
+}
+
+.categoriesTitle {
+    font-weight: bold;
+    color:#494332;
+    font-size: 28px;
+}
+
+.categoriesName {
+    font-family:"Poppins", sans-serif;
+    text-align: center;
+    color:#1d0d04;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.liStyle {
+    background-color: rgb(167, 157, 157);
+    color: white;
+    text-align: center;
+}
+
+.categoriesImg {
+    max-width:100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.categoriesCenter {
+    display:flex;
+    justify-content:center;
+}
+
+.categoriesMarg {
+    margin: 25px;
+}
+
+.contactTitle {
+    color: rgb(24, 93, 50); 
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.contactText {
+    margin-left: 100px;
+}
+
+.form {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.formCommnt {
+    margin-bottom: 80px;
+}
+
+.navbar-toggler {
+    background-color: #4caf50;
+/* float: left; */
+}
+
+.justify-content-center {
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: rgb(246, 246, 246);
+    align-items: center;
+}
+
+.searchBar {
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+
+@import "queries"
