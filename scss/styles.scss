@@ -1,6 +1,6 @@
-@import "partials/queries";
-@import "partials/reset";
 @import "partials/fonts";
+@import "partials/reset";
+@import "partials/queries";
 
 .leftFloat {
     float: left;
@@ -164,9 +164,10 @@ body {
     position: relative;
     bottom: 0;
     margin-bottom: 0;
-    width: 100%;
+    width: 90%;
     /* height: 70px; */
     margin-top: 15px;
+    margin-left: 20px;
 }
 
 .optionFooter {
@@ -175,9 +176,9 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-bottom: -25px;
-    margin-left: -60px;
-    margin-right: -15px;
+    // margin-bottom: -25px;
+    // // margin-left: -40px;
+    // margin-right: -15px;
     background-color: rgb(148, 149, 149);
 }
 
