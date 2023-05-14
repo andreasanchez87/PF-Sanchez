@@ -61,3 +61,19 @@
     }
     
 }
+
+@media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .search-cart {
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  
+    .search {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
