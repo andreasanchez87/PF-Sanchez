@@ -6,52 +6,52 @@
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
-  }
+}
   
-  .flex-container > div {
+.flex-container > div {
     background-color: yellow;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-  }
+}
   
-  .header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  .logo {
+.logo {
     flex: 1;
-    }
+}
   
-  .logosize {
+.logosize {
     width: 60px;
     height: 60px;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-  }
+}
   
-  .search-cart {
+.search-cart {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex: 1;
-  }
+ }
   
-  .search {
+.search {
     margin-right: 15px;
-  }
+}
   
-  .cart button {
+.cart button {
     background-color: #f5a623;
     color: white;
     padding: 10px;
     border-radius: 5px;
     border: none;
     margin-right: 15px;
-  }
+}
 
 
 $blackColor: black;
@@ -277,6 +277,7 @@ body {
     max-width:100%;
     height: auto;
     border-radius: 10px;
+    padding: 15px;
 }
 
 .categoriesCenter {
