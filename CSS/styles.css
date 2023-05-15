@@ -140,15 +140,6 @@
   text-decoration: none;
 }
 
-.firstNav ul {
-  list-style-type: none;
-  margin-top: 25px;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(246, 246, 246);
-  /* outline: black solid 1px; */
-}
-
 .secondNav ul {
   color: white;
   margin-top: 10px;
@@ -157,10 +148,6 @@
   overflow: hidden;
   background-color: #4caf50;
   /* margin-left: -40px; */
-}
-
-.firstNavColor {
-  background-color: rgb(246, 246, 246);
 }
 
 .secondNavColor {
@@ -300,7 +287,7 @@ body {
 
 .categoriesTitle {
   font-weight: bold;
-  color: #494332;
+  color: #43413c;
   font-size: 28px;
 }
 
