@@ -78,11 +78,14 @@
 }
 
 .logo {
-  flex: 3%;
-  /* width: 70px;
-  height: 70px; */
-  /* text-align: center; */
-  /* padding: 14px; */
+  flex: 1;
+  }
+
+.logosize {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .search-cart {
@@ -93,7 +96,7 @@
 }
 
 .search {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .cart button {
@@ -102,6 +105,7 @@
   padding: 10px;
   border-radius: 5px;
   border: none;
+  margin-right: 15px;
 }
 
 
